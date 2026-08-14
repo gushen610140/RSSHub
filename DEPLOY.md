@@ -31,3 +31,9 @@ pnpm start
 ```bash
 pm2 start dist/index.mjs --name rsshub
 ```
+
+# 降级无头浏览器
+
+```bash
+pnpm exec patchright install
+```
